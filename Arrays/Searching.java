@@ -21,5 +21,6 @@ public class Searching {
             arr[i] = sc.nextInt();
         int x = sc.nextInt();
         System.out.println(search(arr,x));
+        sc.close();
     }
 }
