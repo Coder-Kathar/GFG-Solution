@@ -9,9 +9,10 @@ public class LearnComm {
         // Prints a
         System.out.println(a);
         // Prints b
-        //System.out.println(b);
+        System.out.println(b);
         // Prints c
         System.out.println(c);
+        //This Line has been commented
         sc.close();
     }
 }
