@@ -27,6 +27,7 @@ public class Switchstmt {
             arr.add(val);
         }
         System.out.println(switchCase(choice, arr));
+        sc.close();
     }
 }
 
