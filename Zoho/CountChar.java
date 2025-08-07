@@ -1,4 +1,4 @@
-package Zoho;
+
 import java.util.*;
 public class CountChar
 {
