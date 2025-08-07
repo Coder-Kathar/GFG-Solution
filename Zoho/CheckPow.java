@@ -2,7 +2,7 @@ import java.util.*;
 public class CheckPow
 {
     // User function Template for Java
-    public boolean isPowerOfAnother(int X, int Y) {
+    public static boolean isPowerOfAnother(int X, int Y) {
         // code here
         if(X == 1 && Y != 1)
             return false;
@@ -17,6 +17,10 @@ public class CheckPow
         }
     }
     public static void main(String[] args) {
-           
+        Scanner sc = new Scanner(System.in);
+        int X = sc.nextInt();
+        int Y = sc.nextInt();
+        System.out.println(isPowerOfAnother(X,Y));
+        sc.close();
     }
 }
